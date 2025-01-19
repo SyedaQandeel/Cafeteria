@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>É-Cafeteria</title>
+
+    <!-- SWIPER -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <!-- Font Awesome CDN Link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- Custom CSS File Link  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div id="menu-btn" class="fas fa-bars"></div>
+
+      <a href="#" class="logo" style="font-size: 40px"
+        ><img src="image/logo.png" alt="logo" width="250px"
+      /></a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#menu">menu</a>
+        <a href="#review">review</a>
+        <a href="#book">book</a>
+        <a href="#cart" class="cart-icon"
+          ><i class="fas fa-shopping-cart"></i> Cart</a
+        >
+      </nav>
+
+      <a href="#book" class="btn">book a table</a>
+    </header>
+
+    <!-- HOME -->
+    <section class="home" id="home">
+      <div class="row">
+        <div class="content">
+          <h3>fresh coffee in the morning</h3>
+          <a href="#" class="btn">buy one now</a>
+        </div>
+
+        <div class="image">
+          <img src="image/home-img-1.png" class="main-home-image" alt="" />
+        </div>
+      </div>
+
+      <div class="image-slider">
+        <img src="image/home-img-1.png" alt="" />
+        <img src="image/home-img-2.png" alt="" />
+        <img src="image/home-img-3.png" alt="" />
+      </div>
+    </section>
+
+    <!-- MENU -->
+    <div style="text-align: center">
+      <img
+        src="image/discount.png"
+        alt="discount"
+        width="250px"
+        style="display: inline-block"
+      />
+    </div>
+
+    <h1 class="heading">our menu <span>popular menu</span></h1>
+    <section class="about" id="menu">
+      <!-- Product 1 -->
+      <div class="row">
+        <div class="image">
+          <img src="Product Images/1.jpeg" alt="Walnut Fudge Brownie" />
+        </div>
+
+        <div class="content">
+          <h3 class="title">Walnut Fudge Brownie</h3>
+          <p>
+            A classic chocolate brownie, topped with chocolate syrup and nuts.
+          </p>
+
+          <div class="cta">
+            <div class="price">Rs. 225</div>
+            <button class="btn1">Buy Now</button>
+          </div>
+
+          <div class="icons-container"></div>
+        </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="row">
+        <div class="image">
+          <img src="Product Images/2.jpeg" alt="Chocolate Oreo Brownie" />
+        </div>
+
+        <div class="content">
+          <h3 class="title">Chocolate Oreo Brownie</h3>
+          <p>
+            The perfect combination of two cult favorites, oreos, and chocolate,
+            in one delicious dessert.
+          </p>
+
+          <div class="cta">
+            <div class="price">Rs. 200</div>
+            <button class="btn1">Buy Now</button>
+          </div>
+          <div class="icons-container"></div>
+        </div>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="row">
+        <div class="image">
+          <img src="Product Images/3.jpeg" alt="Cadbury Pastry" />
+        </div>
+
+        <div class="content">
+          <h3 class="title">Cadbury Pastry</h3>
+          <p>
+            A dense chocolate pastry, topped with a creamy chocolate frosting
+            and a chocolate.
+          </p>
+
+          <div class="cta">
+            <div class="price">Rs. 160</div>
+            <button class="btn1">Buy Now</button>
+          </div>
+          <div class="icons-container"></div>
+        </div>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="row">
+        <div class="image">
+          <img src="Product Images/4.jpeg" alt="Walnut Shape Pastry" />
+        </div>
+
+        <div class="content">
+          <h3 class="title">Walnut Shape Pastry</h3>
+          <p>
+            A dense chocolate pastry, topped with a chocolate ganache and
+            walnuts.
+          </p>
+
+          <div class="cta">
+            <div class="price">Rs. 190</div>
+            <button class="btn1">Buy Now</button>
+          </div>
+          <div class="icons-container"></div>
+        </div>
+      </div>
+
+      <!-- Product 5 -->
+      <div class="row">
+        <div class="image">
+          <img src="Product Images/5.jpeg" alt="Chicken Pizza Slice" />
+        </div>
+
+        <div class="content">
+          <h3 class="title">Chicken Pizza Slice</h3>
+          <p>
+            A slice of chicken pizza, just as good and freshly made from the
+            kitchens.
+          </p>
+
+          <div class="cta">
+            <div class="price">Rs. 220</div>
+            <button class="btn1">Buy Now</button>
+          </div>
+          <div class="icons-container"></div>
+        </div>
+      </div>
+
+      <!-- Product 6 -->
+      <div class="row">
+        <div class="image">
+          <img src="Product Images/6.jpeg" alt="Malaysian Cross" />
+        </div>
+
+        <div class="content">
+          <h3 class="title">Malaysian Cross</h3>
+          <p>
+            Malaysian Cross is made with spiced grilled chicken filled with
+            capsicums, its perfect for snack time cravings.
+          </p>
+
+          <div class="cta">
+            <div class="price">Rs. 170</div>
+            <button class="btn1">Buy Now</button>
+          </div>
+          <div class="icons-container"></div>
+        </div>
+      </div>
+
+      <!-- Product 7 -->
+      <div class="row">
+        <div class="image">
+          <img src="Product Images/7.jpeg" alt="Chicken BBQ Sandwich" />
+        </div>
+
+        <div class="content">
+          <h3 class="title">Chicken BBQ Sandwich</h3>
+          <p>
+            Sandwich made with BBQ chicken and BBQ flavor within, just the
+            perfectly crafted sandwich for you.
+          </p>
+
+          <div class="cta">
+            <div class="price">Rs. 210</div>
+            <button class="btn1">Buy Now</button>
+          </div>
+          <div class="icons-container"></div>
+        </div>
+      </div>
+
+      <!-- Product 8 -->
+      <div class="row">
+        <div class="image">
+          <img src="Product Images/8.jpeg" alt="Mini Pizza" />
+        </div>
+
+        <div class="content">
+          <h3 class="title">Mini Pizza</h3>
+          <p>
+            Fluffy flour dough, pizza sauce spread over and cheese topped over.
+            A mini treat all for yourself.
+          </p>
+
+          <div class="cta">
+            <div class="price">Rs. 140</div>
+            <button class="btn1">Buy Now</button>
+          </div>
+          <div class="icons-container"></div>
+        </div>
+      </div>
+
+      <!-- Product 9 -->
+      <div class="row">
+        <div class="image">
+          <img src="Product Images/9.jpeg" alt="Chicken Spring Roll" />
+        </div>
+
+        <div class="content">
+          <h3 class="title">Chicken Spring Roll</h3>
+          <p>
+            Preserving the history of spring roll cuisine and revolutionizing it
+            we craft some of the well-baked and stuffed rolls.
+          </p>
+
+          <div class="cta">
+            <div class="price">Rs. 180</div>
+            <button class="btn1">Buy Now</button>
+          </div>
+          <div class="icons-container"></div>
+        </div>
+      </div>
+
+      <!-- Product 10 -->
+      <div class="row">
+        <div class="image">
+          <img src="Product Images/10.jpeg" alt="Chicken Patties" />
+        </div>
+
+        <div class="content">
+          <h3 class="title">Chicken Patties</h3>
+          <p>
+            Baked dough till golden and filled with chicken filling and surreal
+            taste to devour upon the healthiest you can get in patties all
+            around.
+          </p>
+
+          <div class="cta">
+            <div class="price">Rs. 120</div>
+            <button class="btn1">Buy Now</button>
+          </div>
+          <div class="icons-container"></div>
+        </div>
+      </div>
+
+      <!-- Product 11 -->
+      <div class="row">
+        <div class="image">
+          <img src="Product Images/11.jpeg" alt="Fry Cheese Sandwich" />
+        </div>
+
+        <div class="content">
+          <h3 class="title">Fry Cheese Sandwich</h3>
+          <p>
+            Packed with chicken and eggs first, and then fried a snack you would
+            never wanna miss out for its deliciousness as they say.
+          </p>
+
+          <div class="cta">
+            <div class="price">Rs. 270</div>
+            <button class="btn1">Buy Now</button>
+          </div>
+          <div class="icons-container"></div>
+        </div>
+      </div>
+
+      <!-- Product 12 -->
+      <div class="row">
+        <div class="image">
+          <img src="Product Images/12.jpeg" alt="Pizza Bread" />
+        </div>
+
+        <div class="content">
+          <h3 class="title">Pizza Bread</h3>
+          <p>
+            Chicken and pizza sauce spread in the bread and cheese spreading on
+            another layer of bread, soft in and soft out; well-crafted snack.
+          </p>
+
+          <div class="cta">
+            <div class="price">Rs. 240</div>
+            <button class="btn1">Buy Now</button>
+          </div>
+          <div class="icons-container"></div>
+        </div>
+      </div>
+
+      <!-- Product 13 -->
+      <div class="row">
+        <div class="image">
+          <img src="Product Images/13.jpeg" alt="Club Sandwich" />
+        </div>
+
+        <div class="content">
+          <h3 class="title">Club Sandwich</h3>
+          <p>
+            Filled with chicken and eggs for it to taste like it and covered in
+            melted cheese slices with lettuce and veggies in it.
+          </p>
+
+          <div class="cta">
+            <div class="price">Rs. 200</div>
+            <button class="btn1">Buy Now</button>
+          </div>
+          <div class="icons-container"></div>
+        </div>
+      </div>
+
+      <!-- Product 14 -->
+      <div class="row">
+        <div class="image">
+          <img src="Product Images/14.jpeg" alt="Chicken Italian Roll" />
+        </div>
+
+        <div class="content">
+          <h3 class="title">Chicken Italian Roll</h3>
+          <p>
+            Surreal Italian chicken flavor marinated in white sauce tasting
+            something you can always go back to and rejoice.
+          </p>
+
+          <div class="cta">
+            <div class="price">Rs. 230</div>
+            <button class="btn1">Buy Now</button>
+          </div>
+          <div class="icons-container"></div>
+        </div>
+      </div>
+
+      <!-- Product 15 -->
+      <div class="row">
+        <div class="image">
+          <img src="Product Images/15.jpeg" alt="Zinger Burger" />
+        </div>
+
+        <div class="content">
+          <h3 class="title">Zinger Burger</h3>
+          <p>
+            Batter-coated fried chicken spread with mayo, lettuce and chopped
+            cabbage.
+          </p>
+
+          <div class="cta">
+            <div class="price">Rs. 350</div>
+            <button class="btn1">Buy Now</button>
+          </div>
+          <div class="icons-container"></div>
+        </div>
+      </div>
+
+      <!-- Product 16 -->
+      <div class="row">
+        <div class="image">
+          <img src="Product Images/16.jpeg" alt="Chicken Cheese Pastry" />
+        </div>
+
+        <div class="content">
+          <h3 class="title">Chicken Cheese Pastry</h3>
+          <p>
+            Three majestic layers of bread, spread with garlic sauce, chicken,
+            and eggs. All packed and fried with egg dipping all over.
+          </p>
+
+          <div class="cta">
+            <div class="price">Rs. 180</div>
+            <button class="btn1">Buy Now</button>
+          </div>
+          <div class="icons-container"></div>
+        </div>
+      </div>
+
+      <!-- Product 17 -->
+      <div class="row">
+        <div class="image">
+          <img src="Product Images/17.jpeg" alt="Chocolate Donut" />
+        </div>
+
+        <div class="content">
+          <h3 class="title">Chocolate Donut</h3>
+          <p>
+            A classic chocolate donut, laden with chocolate syrup and chocolate
+            chips.
+          </p>
+
+          <div class="cta">
+            <div class="price">Rs. 80</div>
+            <button class="btn1">Buy Now</button>
+          </div>
+          <div class="icons-container"></div>
+        </div>
+      </div>
+      <!-- Product 18 -->
+      <div class="row">
+        <div class="image">
+          <img src="Product Images/18.jpeg" alt="Black Forest" />
+        </div>
+
+        <div class="content">
+          <h3 class="title">Black Forest</h3>
+          <p>
+            All-time favourite, elevated by the inclusion of premium chocolate
+            chips and maraschino cherries.
+          </p>
+
+          <div class="cta">
+            <div class="price">Rs. 1390</div>
+            <button class="btn1">Buy Now</button>
+          </div>
+          <div class="icons-container"></div>
+        </div>
+      </div>
+      <!-- Product 19 -->
+      <div class="row">
+        <div class="image">
+          <img
+            src="Product Images/19.jpeg"
+            alt="Savor Superior Coffee Delights"
+          />
+        </div>
+
+        <div class="content">
+          <h3 class="title">Savor Superior Coffee Delights</h3>
+          <p>
+            Taste the amazing smells and strong flavors in every sip of our
+            top-notch coffee. Make your mornings better with our carefully
+            chosen blends made just for coffee lovers.
+          </p>
+
+          <div class="cta">
+            <div class="price">Rs. 300</div>
+            <button class="btn1">Buy Now</button>
+          </div>
+          <div class="icons-container"></div>
+        </div>
+      </div>
+
+      <!-- Product 20 -->
+      <div class="row">
+        <div class="image">
+          <img src="Product Images/20.jpeg" alt="Almond Biscuits 250gm" />
+        </div>
+
+        <div class="content">
+          <h3 class="title">Almond Biscuits 250gm</h3>
+          <p>
+            Made with icing sugar butter and vanilla custard and powder; surreal
+            biscuits are then added with almonds atop to be baked.
+          </p>
+          <div class="cta">
+            <div class="price">Rs. 250</div>
+            <button class="btn1">Buy Now</button>
+          </div>
+          <div class="icons-container"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cart" class="cart-section">
+      <div class="cart-container">
+        <div class="cart-header">
+          <h1 class="heading">Shopping Cart<span>Buy Stuff</span></h1>
+        </div>
+        <div class="cart-items"></div>
+        <div class="cart-total">
+          <h1>Total: Rs. <span id="cart-total-amount">0</span></h1>
+          <button class="btn" onclick="checkout()">Checkout</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEW -->
+    <section class="review" id="review">
+      <h1 class="heading">reviews <span>what people says</span></h1>
+
+      <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <i class="fas fa-quote-left"></i>
+            <i class="fas fa-quote-right"></i>
+            <img src="image/pic-1.png" alt="" />
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo,
+              earum quis dolorem quaerat tenetur illum.
+            </p>
+            <h3>john deo</h3>
+            <span>satisfied client</span>
+          </div>
+
+          <div class="swiper-slide box">
+            <i class="fas fa-quote-left"></i>
+            <i class="fas fa-quote-right"></i>
+            <img src="image/pic-2.png" alt="" />
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              optio quasi ut, illo ipsam assumenda.
+            </p>
+            <h3>john deo</h3>
+            <span>satisfied client</span>
+          </div>
+
+          <div class="swiper-slide box">
+            <i class="fas fa-quote-left"></i>
+            <i class="fas fa-quote-right"></i>
+            <img src="image/pic-3.png" alt="" />
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+              asperiores aliquam hic quis! Eligendi, aliquam.
+            </p>
+            <h3>john deo</h3>
+            <span>satisfied client</span>
+          </div>
+
+          <div class="swiper-slide box">
+            <i class="fas fa-quote-left"></i>
+            <i class="fas fa-quote-right"></i>
+            <img src="image/pic-4.png" alt="" />
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi
+              modi perspiciatis distinctio velit aliquid a.
+            </p>
+            <h3>john deo</h3>
+            <span>satisfied client</span>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- BOOK -->
+    <section class="book" id="book">
+      <h1 class="heading">booking <span>reserve a table</span></h1>
+
+      <form action="">
+        <input type="text" placeholder="Name" class="box" />
+        <input type="email" placeholder="Email" class="box" />
+        <input type="number" placeholder="Number" class="box" />
+        <textarea
+          name=""
+          placeholder="Message"
+          class="box"
+          id=""
+          cols="30"
+          rows="10"
+        ></textarea>
+        <input type="submit" value="send message" class="btn" />
+      </form>
+    </section>
+
+    <!-- FOOTER -->
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#home"><i class="fas fa-arrow-right"></i> home</a>
+          <a href="#menu"><i class="fas fa-arrow-right"></i> menu</a>
+          <a href="#review"><i class="fas fa-arrow-right"></i> review</a>
+          <a href="#book"><i class="fas fa-arrow-right"></i> book</a>
+        </div>
+
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="#"><i class="fas fa-phone"></i> +92 317 2193727</a>
+          <a href="#"
+            ><i class="fas fa-envelope"></i> arsalandaudpota6@gmail.com</a
+          >
+        </div>
+
+        <div class="box">
+          <h3>contact info</h3>
+          <a
+            target="_blank"
+            href="https://www.facebook.com/profile.php?id=61555508289395&mibextid=LQQJ4d"
+            ><i class="fab fa-facebook-f"></i> facebook</a
+          >
+          <a href="#"><i class="fab fa-twitter"></i> twitter</a>
+          <a target="_blank" href="https://www.instagram.com/e__cafeteria/"
+            ><i class="fab fa-instagram"></i> instagram</a
+          >
+          <a href="#"><i class="fab fa-youtube"></i> Youtube</a>
+        </div>
+      </div>
+
+      <!-- <div class="credit">created by <span>mr. web designer</span> | all rights reserved</div> -->
+    </section>
+
+    <!-- SWIPER -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- Custom JS File Link  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
